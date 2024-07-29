@@ -1,7 +1,7 @@
 TESTS_HOST = '51.250.8.141'
 TESTS_HOST_2 = 'https://postgres-check-service.sprint9.tgcloudenv.ru'
 
-student = '*',  # ваш_логин
+student = 'strukovs',  # ваш_логин
 pg_settings = {
     'host': '*',  # хост_вашего_postgresql
     'port': 6432,  # порт_вашего_postgresql
