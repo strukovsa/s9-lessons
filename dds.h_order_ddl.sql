@@ -1,0 +1,6 @@
+CREATE TABLE dds.h_order (
+h_order_pk UUID PRIMARY KEY NOT NULL,
+order_id INT NOT NULL,
+order_dt TIMESTAMP NOT NULL,
+load_dt TIMESTAMP NOT NULL,
+load_src VARCHAR NOT NULL)

@@ -1,0 +1,5 @@
+CREATE TABLE dds.h_user (
+h_user_pk UUID PRIMARY KEY NOT NULL,
+user_id VARCHAR NOT NULL,
+load_dt TIMESTAMP NOT NULL,
+load_src VARCHAR NOT NULL)
